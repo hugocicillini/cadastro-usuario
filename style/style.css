@@ -28,16 +28,15 @@ header {
 }
 
 main {
-    width: 60%;
+    width: 70%;
     height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+    margin: auto;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 50px black;
-    margin-left: 21%;
     margin-top: 100px;
 }
 
@@ -102,8 +101,8 @@ main label {
 }
 
 main input {
-    width: 300px;
-    height: 25px;
+    width: 30vw;
+    height: 3vh;
     padding: 5px;
     outline: none;
     font-size: medium;
@@ -114,6 +113,7 @@ main input {
 main form input[type="submit"] {
     cursor: pointer;
     margin-top: 20px;
+    margin-bottom: 15px;
     height: 30px;
     width: 50%;
     border-radius: 32px;
@@ -123,4 +123,13 @@ main form input[type="submit"] {
 main form input[type="submit"]:hover {
     background-color: rgba(255, 0, 0, 0.288);
     transition: all ease-in-out;
+}
+
+aside {
+    color: black;
+    margin-bottom: 10px;
+}
+
+aside a {
+    color: rgba(0, 0, 255, 0.664);
 }
