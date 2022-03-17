@@ -101,8 +101,8 @@ main label {
 }
 
 main input {
-    width: 40vw;
-    height: 3vh;
+    width: 55vw;
+    height: 30px;
     padding: 5px;
     outline: none;
     font-size: medium;
