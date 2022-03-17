@@ -1,7 +1,7 @@
-@charset
+@charset "UTF-8";
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,5 +10,118 @@
 }
 
 body {
+    background-color: rgba(129, 117, 78, 0.548);
+    color: white;
+    font-weight: normal;
+}
 
+header {
+    background-color: rgba(255, 0, 0, 0.24);
+    height: 10vh;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Inspiration', cursive;
+}
+
+.social-media a {
+    margin: 20px;
+}
+
+main {
+    width: 50vw;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 50px black;
+    margin-left: 21%;
+    margin-top: 100px;
+}
+
+main h1 {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-size: 3em;
+    font-family: "Inspiration";
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media img {
+    width: 36px;
+    margin-top: 20px;
+}
+
+.alternativo > span {
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+ .alternativo > span::before, .alternativo > span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    bottom: 48%;
+    right: 50px;
+}
+
+.alternativo > span::after {
+    left: 50px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-top: 30px;
+}
+
+span {
+    padding: 10px;
+    font-size: 1.05em;
+    font-weight: bold;
+    font-family: 'Raleway', cursive;
+}
+
+main label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main input {
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    outline: none;
+    font-size: medium;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    margin-top: 20px;
+    height: 30px;
+    width: 50%;
+    border-radius: 32px;
+    background-color: rgba(255, 0, 0, 0.24);
+}
+
+main form input[type="submit"]:hover {
+    background-color: rgba(255, 0, 0, 0.288);
+    transition: all ease-in-out;
 }
