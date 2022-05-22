@@ -55,8 +55,20 @@ main h1 {
 }
 
 .social-media img {
-    width: 5vw;
+    width: 3vw;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .social-media img {
+        width: 5vw;
+    }
+
+    .social-media {
+        display: flex;
+        width: 70%; 
+        margin-right: 15%;
+    }
 }
 
 .alternativo > span {
